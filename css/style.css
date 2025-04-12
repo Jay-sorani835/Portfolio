@@ -1,0 +1,89 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow-x: hidden;
+    background: url('https://img.freepik.com/free-vector/futuristic-background-design_23-2148503793.jpg?semt=ais_hybrid&w=740');
+}
+.logo img{
+    width: 100px;
+    height: 100px;
+}
+.pages li{
+    list-style-type: none;
+}
+.pages a{
+    text-decoration: none;
+    color: black;
+}
+.pages a:hover{
+    color: whitesmoke;
+    transition: all ease-out 300ms;
+}
+.info h2{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.image img{
+    width: 90%;
+    animation: shakeY ease-in-out 5s infinite;
+    box-shadow: rgba(255, 255, 255, 0.1) 0px 1px 1px 0px inset, rgba(163, 163, 189, 0.445) 0px 50px 100px -20px, rgba(191, 186, 255, 0.63) 0px 30px 60px -30px;
+}
+#about{
+    margin-top: 1.5rem;
+    border-radius: 20px;
+    box-shadow: rgba(255, 255, 255, 0.1) 0px 1px 1px 0px inset, rgba(240, 240, 240, 0.445) 0px 50px 100px -10px, rgba(191, 186, 255, 0.63) 0px 30px 60px -30px;
+}
+.skill{
+    margin-top: 10%;
+    display: grid;
+    grid-template-columns: auto auto auto auto
+}
+#skills{
+    width: 80%;
+    margin: 10%;
+}
+.skill .tech{
+    width: 70%;
+    height: 200px;
+    border-radius: 20px;
+}
+.tech img{
+    width: 100%;
+    margin: 0px auto;
+    padding: 20px;
+    height: 18vh;
+    border-radius: 20px;
+}
+.tech img:hover{
+    animation: wobble ease-in-out 2s;
+    box-shadow: rgba(151, 151, 151, 0.39) 0px 1px 1px 0px inset, rgba(247, 216, 116, 0.445) 0px 50px 100px -10px, rgba(255, 229, 113, 0.63) 0px 30px 60px -30px;
+}
+.projects{
+    align-items: center;
+    margin-left: 10%;
+}
+.project{
+    display: grid;
+    grid-template-columns: auto auto;
+}
+.project .detail{
+    animation: fadeInLeft ease-in-out 1s;
+}
+.project .img{
+    animation: fadeInRight ease-in-out 5s;
+}
+.img img{
+    width: 300px;
+    height: 200px;
+    border-radius: 30px;
+}
+.detail, .img{
+    width: 35%;
+}
+#navbar{
+    position: sticky;
+    background-color: gray;
+}
+form button{
+    width: 50%;
+}
